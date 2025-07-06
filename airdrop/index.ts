@@ -11,6 +11,4 @@ export const airdrop = async (address: string, amount: number) => {
   await conn.confirmTransaction(signature);
 };
 
-airdrop('3sXPJophwvX6crRSEoKXXdH6hLRdNKKUazwaXEpuxhLS', 1);
-
 // 10^9 LAMPORTS = 1 SOL
